@@ -1,0 +1,24 @@
+                /* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gray-bike{
+    filter: grayscale(1);
+}
+
+.bg-color{
+    background-color: rgb(176, 248, 176);
+}
+
+.btn-color{
+    background-color: rgb(6, 206, 6);
+    padding: 9px 25px;
+    border: none;
+    color: #fff;
+}
