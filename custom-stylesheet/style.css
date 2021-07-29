@@ -1,10 +1,6 @@
                 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
-html, body{
-    overflow-x: hidden; 
-}
-
 body{
     font-family: 'poppins', sans-serif; 
 }
@@ -41,4 +37,10 @@ body{
     box-shadow: 5px 5px 30px rgb(192, 188, 188);
     border:rgba(212, 209, 209, 0.274);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 688px){
+    html, body{
+        overflow-x: hidden;
+    }
 }
