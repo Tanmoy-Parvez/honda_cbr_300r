@@ -8,21 +8,36 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.gray-bike{
-    filter: grayscale(1);
-}
-
+        /* common styles */
 .bg-color{
     background-color: #264653;
 }
-
+        
 .btn-color{
     background-color: #E76F51;
     padding: 10px 30px;
     border: none;
     color: #fff;
 }
-
+        
 .orange-text{
     color: #E76F51;
+}
+
+        /* bike styles */
+.gray-bike{
+    filter: grayscale(1);
+}
+
+        /* components styles */
+.major-parts{
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+.major-parts .card:hover{
+    background-color: rgba(212, 209, 209, 0.274);
+    box-shadow: 5px 5px 30px grey;
+    border:rgba(212, 209, 209, 0.274);
+    cursor: pointer;
 }
